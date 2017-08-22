@@ -1,0 +1,13 @@
+{
+  "firstName": "Иван",
+  "secondName": "Иванов",
+  "address": {
+    "city": "Москва",
+    "street": "ул.Алиева",
+    "house": "2"
+  },
+  "phoneNumbers": [
+    "8121231234",
+    "8999999999"
+  ]
+}
