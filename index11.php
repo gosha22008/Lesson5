@@ -10,12 +10,39 @@ $data = json_decode($content, true);
 ?>
 <body>
 <table>
-    <?php foreach ($data as $k => $v) : ?>
     <tr>
-        <td><?= $k ?></td>
-        <td><?= $v ?></td>
+        <td><?= "firsteName" ?></td>
+        <td><?= $data["firstName"] ?></td>
     </tr>
-<?php endforeach; ?>
+    <tr>
+        <td><?= "secondName" ?></td>
+        <td><?= $data["secondName"] ?></td>
+    </tr>
+    <tr>
+        <td><?= "patronymic" ?></td>
+        <td><?= $data["patronymic"] ?></td>
+    </tr>
+    <tr>
+        <td><?= "city" ?></td>
+        <td><?= $data["city"] ?></td>
+    </tr>
+    <tr>
+        <td><?= "street" ?></td>
+        <td><?= $data["street"] ?></td>
+    </tr>
+    <tr>
+        <td><?= "house" ?></td>
+        <td><?= $data["house"] ?></td>
+    </tr>
+    <tr>
+        <td><?= "phoneNumber1" ?></td>
+        <td><?= $data["phoneNumber1"] ?></td>
+    </tr>
+    <tr>
+        <td><?= "phoneNumber2" ?></td>
+        <td><?= $data["phoneNumber2"] ?></td>
+    </tr>
+
 </table>
 </body>
 </html>

@@ -1,6 +1,10 @@
 {
   "firstName":"Иван",
   "secondName":"Иванов",
-  "address":"Москва, ул. Алиева, 2",
-  "phoneNumbers":"8121231234"
+  "patronymic":"Иванович",
+  "city":"Москва",
+  "house":"2",
+  "street":"ул.Алиева",
+  "phoneNumber1":"8121231234",
+  "phoneNumber2":"8999999999"
 }
