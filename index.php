@@ -7,6 +7,7 @@
 <?php
 $content = file_get_contents(__DIR__ . '/numbers_book');
 $data = json_decode($content, true);
+$string = ", ";
 ?>
 <body>
 <table>
@@ -23,12 +24,9 @@ $data = json_decode($content, true);
             <?= $data['address']['city'] . ", " . $data['address']['street'] . ", " . $data['address']['house'] ?>
         </td>
         <td>
-            <?php foreach ($data['phoneNumbers'] as $v) {
-                echo $v . " ";
-            } ?>
+            <?= implode($string, $data['phoneNumbers']) ?>
         </td>
     </tr>
-
 </table>
 </body>
 </html>
