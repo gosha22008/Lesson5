@@ -11,7 +11,7 @@ $data = json_decode($content, true);
 <body>
 <table>
     <tr>
-        <td><?= "firsteName" ?></td>
+        <td><?= "firstName" ?></td>
         <td><?= $data["firstName"] ?></td>
     </tr>
     <tr>
@@ -42,7 +42,6 @@ $data = json_decode($content, true);
         <td><?= "phoneNumber2" ?></td>
         <td><?= $data["phoneNumber2"] ?></td>
     </tr>
-
 </table>
 </body>
 </html>

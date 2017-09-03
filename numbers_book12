@@ -1,0 +1,41 @@
+[
+  {
+    "firstName": "Иван",
+    "secondName": "Иванов",
+    "address": {
+      "city": "Москва",
+      "street": "ул.Алиева",
+      "house": "2"
+    },
+    "phoneNumbers": [
+      "8121231234",
+      "8999999999"
+    ]
+  },
+  {
+    "firstName": "Юрий",
+    "secondName": "Егошин",
+    "address": {
+      "city": "Калининград",
+      "street": "ул.Морозова",
+      "house": "6"
+    },
+    "phoneNumbers": [
+      "8121231234",
+      "8999999999"
+    ]
+  },
+  {
+    "firstName": "Заур",
+    "secondName": "Ахмедов",
+    "address": {
+      "city": "Сочи",
+      "street": "ул.Мира",
+      "house": "54"
+    },
+    "phoneNumbers": [
+      "8121231234",
+      "8999999999"
+    ]
+  }
+]
